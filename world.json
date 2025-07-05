@@ -1,0 +1,18 @@
+{
+  "start": {
+    "name": "The Forest Entrance",
+    "desc": "You stand at the edge of a dark forest. The trees loom tall and mysterious.",
+    "exits": {
+      "north": "cave"
+    },
+    "items": ["stick"]
+  },
+  "cave": {
+    "name": "A Dark Cave",
+    "desc": "It's cold and damp inside the cave. You hear dripping water echoing around.",
+    "exits": {
+      "south": "start"
+    },
+    "items": ["torch"]
+  }
+}
